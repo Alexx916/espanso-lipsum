@@ -54,7 +54,7 @@ matches:
             - "Phasellus laoreet lorem vel dolor tempus vehicula. Idque Caesaris facere voluntate liceret: sese habere. Ab illo tempore, ab est sed immemorabili. Mercedem aut nummos unde unde extricat, amaras. Praeterea iter est quasdam res quas ex communi."
 
   # Multiples sentences
-  - trigger: ">lipsum"
+  - trigger: ">2lipsum"
     replace: "{{one}} {{two}}"
     vars:
       - name: one
@@ -65,7 +65,7 @@ matches:
         type: match
         params:
           trigger: ">lipsum"
-  - trigger: ">lipsum"
+  - trigger: ">3lipsum"
     replace: "{{two}} {{three}}"
     vars:
       - name: two
