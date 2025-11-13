@@ -21,14 +21,14 @@ espanso restart
 
 |  Trigger  | Replace |
 |-----------|---------|
-| `>lorem`  | 1 sentence. |
-| `>2lorem` | 2 sentences. |
-| `>3lorem` | 3 sentences. |
-| `>4lorem` | 4 sentences. |
+| `>lipsum`  | 1 sentence. |
+| `>2lipsum` | 2 sentences. |
+| `>3lipsum` | 3 sentences. |
+| `>4lipsum` | 4 sentences. |
 
 |  Trigger  | Replace |
 |-----------|---------|
-| `#lorem`  | 1 paragraph. |
-| `#2lorem`  | 2 paragraphs. |
-| `#3lorem`  | 3 paragraphs. |
-| `#4lorem`  | 4 paragraphs. |
+| `#lipsum`  | 1 paragraph. |
+| `#2lipsum`  | 2 paragraphs. |
+| `#3lipsum`  | 3 paragraphs. |
+| `#4lipsum`  | 4 paragraphs. |
