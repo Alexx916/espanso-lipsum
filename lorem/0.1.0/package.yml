@@ -90,7 +90,7 @@ matches:
 
   # Multiples paragraphs
   - trigger: "#2lorem"
-    replace: "{{one}}\n{{two}}"
+    replace: "{{one}}\n\n{{two}}"
     vars:
       - name: one
         type: match
@@ -101,7 +101,7 @@ matches:
         params:
           trigger: "#lorem"
   - trigger: "#3lorem"
-    replace: "{{two}}\n{{three}}"
+    replace: "{{two}}\n\n{{three}}"
     vars:
       - name: two
         type: match
@@ -112,7 +112,7 @@ matches:
         params:
           trigger: "#lorem"
   - trigger: "#4lorem"
-    replace: "{{three}}\n{{four}}"
+    replace: "{{three}}\n\n{{four}}"
     vars:
       - name: three
         type: match

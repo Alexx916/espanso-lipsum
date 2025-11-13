@@ -3,10 +3,12 @@ package_name: "lorem"
 package_title: "Lorem Ipsum"
 package_desc: "Lorem ipsum sentences and paragraphs generator."
 package_version: "0.1.0"
-package_author: "Dominique Da Silva"
-package_repo: "https://github.com/atika/espanso-lorem"
+package_author: "Alex Hopkin"
+package_repo: "https://github.com/alexx916/espanso-lorem"
 ---
 A simple package to generate random lorem ipsum sentences or paragraphs based on free macOS app [LoremBuilder](https://lorembuilder.com/).
+
+Forked to add double spacing between paragraphs, for use with WordPress and the like.
 
 ### Installation
 
