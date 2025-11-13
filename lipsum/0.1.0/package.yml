@@ -1,11 +1,11 @@
 # Lorem Ipsum
 
-name: lorem
+name: lipsum
 parent: default
 
 matches:
   # Sentence
-  - trigger: ">lorem"
+  - trigger: ">lipsum"
     replace: "{{output}}"
     vars:
       - name: output
@@ -30,7 +30,7 @@ matches:
             - "Ullamco laboris nisi ut aliquid ex ea commodi consequat."
 
   # Paragraph
-  - trigger: "#lorem"
+  - trigger: "#lipsum"
     replace: "{{output}}"
     vars:
       - name: output
@@ -54,71 +54,71 @@ matches:
             - "Phasellus laoreet lorem vel dolor tempus vehicula. Idque Caesaris facere voluntate liceret: sese habere. Ab illo tempore, ab est sed immemorabili. Mercedem aut nummos unde unde extricat, amaras. Praeterea iter est quasdam res quas ex communi."
 
   # Multiples sentences
-  - trigger: ">2lorem"
+  - trigger: ">lipsum"
     replace: "{{one}} {{two}}"
     vars:
       - name: one
         type: match
         params:
-          trigger: ">lorem"
+          trigger: ">lipsum"
       - name: two
         type: match
         params:
-          trigger: ">lorem"
-  - trigger: ">3lorem"
+          trigger: ">lipsum"
+  - trigger: ">lipsum"
     replace: "{{two}} {{three}}"
     vars:
       - name: two
         type: match
         params:
-          trigger: ">2lorem"
+          trigger: ">2lipsum"
       - name: three
         type: match
         params:
-          trigger: ">lorem"
-  - trigger: ">4lorem"
+          trigger: ">lipsum"
+  - trigger: ">4lipsum"
     replace: "{{three}} {{four}}"
     vars:
       - name: three
         type: match
         params:
-          trigger: ">2lorem"
+          trigger: ">2lipsum"
       - name: four
         type: match
         params:
-          trigger: ">2lorem"
+          trigger: ">2lipsum"
 
   # Multiples paragraphs
-  - trigger: "#2lorem"
+  - trigger: "#2lipsum"
     replace: "{{one}}\n\n{{two}}"
     vars:
       - name: one
         type: match
         params:
-          trigger: "#lorem"
+          trigger: "#lipsum"
       - name: two
         type: match
         params:
-          trigger: "#lorem"
-  - trigger: "#3lorem"
+          trigger: "#lipsum"
+  - trigger: "#3lipsum"
     replace: "{{two}}\n\n{{three}}"
     vars:
       - name: two
         type: match
         params:
-          trigger: "#2lorem"
+          trigger: "#2lipsum"
       - name: three
         type: match
         params:
-          trigger: "#lorem"
-  - trigger: "#4lorem"
+          trigger: "#lipsum"
+  - trigger: "#4lipsum"
     replace: "{{three}}\n\n{{four}}"
     vars:
       - name: three
         type: match
         params:
-          trigger: "#2lorem"
+          trigger: "#2lipsum"
       - name: four
         type: match
         params:
-          trigger: "#2lorem"
+          trigger: "#2lipsum"
